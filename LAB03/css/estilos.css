@@ -24,16 +24,98 @@ body {
     text-align: center;
 }
 
+/* Coaching Section */
 #coaching {
     background-color: #fef6e4;
     color: black;
-    height: 100vh;
+    height: auto;
+    padding: 50px 10%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
+#coaching .text-container {
+    padding: 20px;
+}
+
+#coaching h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#coaching h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#coaching p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+#coaching img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/* Crowdfunding Section */
+#crowdfunding {
+    background-color: #ffffff; /* Fondo blanco */
+    color: black;
+    height: auto;
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#crowdfunding .text-container {
+    padding: 20px;
+}
+
+#crowdfunding h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#crowdfunding h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#crowdfunding p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+#crowdfunding img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#crowdfunding .btn {
+    background-color: #85d4b7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#crowdfunding .btn:hover {
+    background-color: #6dccaa;
+}
 #EET_CAFE {
     background-color: #ffd803;
     color: black;
