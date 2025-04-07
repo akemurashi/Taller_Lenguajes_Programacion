@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-top: 56px; /* Espacio para el navbar fijo */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #85d4b7;
+    width: 100%;
+    height: 100px;
+}
+
+/* Sections */
+#vegan {
+    background-color: #6dccaa;
+    color: white;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#coaching {
+    background-color: #fef6e4;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#EET_CAFE {
+    background-color: #ffd803;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#winkel {
+    background-color: #e3f6f5;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Accessibility */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #6dccaa;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: bottom-left;
+    align-items: bottom-left;
+    text-align: bottom-left;
+}
